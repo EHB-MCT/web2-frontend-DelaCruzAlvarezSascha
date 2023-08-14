@@ -13,7 +13,7 @@ header  {
 }
 
 main {
-    padding: 2%;
+    padding: 2% 2% 0.5% 2%;
     background-color: #0500335c;
 }
 
@@ -59,7 +59,7 @@ h4 {
 }
 
 .wrapper {
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
 }
 
 header {
@@ -101,6 +101,7 @@ h4 {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 1%;
+    margin-top: 25px;
 }
 
 #characterList figure,
@@ -180,7 +181,6 @@ figcaption {
 }
 
 .characterPage #characterBanner {
-    /* background-image: url("../Images/Characters/Gasha-splash/Keqing.png"); */
     background-size: cover;
     background-position: center;
     border-top-left-radius: 50px;
@@ -354,7 +354,8 @@ figcaption {
     display: flex;
     align-items: center;
     margin: auto;
-    height: 10px;
+    height: 5px;
+    /* height: 500px; */
     width: 100%;
     /* max-width: 500px; */
     background-color: white;
